@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <div class="sticky top-0 bg-[#0f0f0f] w-full">
+            <ul class="header p-2 text-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="bg-gray-900 pl-15 pr-15 p-10 flex flex-col md:grid md:grid-cols-2 gap-y-8 place-items-center">
+            <div>
+                <img class="h-70 w-56" src="profile.jpg" />
+            </div>
+            <div class='order-2'>
+                <h1 class="text-4xl">Hello, I'm Jezel</h1><br />
+                <p>I'm a software enthusiast with a degree in Information Technology.</p>
+            </div>
+        </div>
+        <div class="bg-gray-800 pl-40 pr-40 p-10 max-md:p-10 place-items-center" id="about">
+            <h1 class="myBorder">About Me</h1><br />
+            <p class="text-pretty">I’m an IT graduate with a passion for coding or database development. I have experience in transforming and formatting report data on my previous company. I find that programming is challenging but it pushes me to think critically, solve problems, and made me want improve on that specific skill. I value hands-on learning and believe that the best way to improve is by doing, and collaborating with others.</p><br />
+            <p class="text-pretty">My philosophy is - Put your best effort into everything you do. Whether it’s a small task or a big project, aim to exceed expectations. Excellence doesn’t mean perfection, but it means delivering quality and continuous improvement.</p>
+        </div>
+        <div class="bg-gray-900 pl-40 pr-40 p-10 max-md:p-10 place-items-center" id="about">
+            <h1 class="myBorder">Skills</h1><br />
+            <p>The languages and tools I am knowledgable with:</p>
+            <ul class="skills">
+                <li><img src="php.png" alt="PHP" style="width: 110px"></li>
+                <li><img src="phpmyadmin.png" alt="phpMyAdmin" style="width: 110px"></li>
+                <li><img src="mysql.png" alt="MySQL" style="width: 110px"></li>
+                <li><img src="mariadb.png" alt="MariaDB"></li>
+                <li><img src="htmlcss.png" alt="HTML/CSS"></li>
+                <li><img src="git.png" alt="GIT"></li>
+                <li><img src="xslt.png" alt="XML/XSLT" style="width: 110px"></li>
+                <li><img src="tailwind.png" alt="Tailwind CSS"></li>
+            </ul>
+        </div>
+        <div class="bg-gray-800 pl-40 pr-40 p-10 max-md:p-10 place-items-center" id="work">
+            <h1 class="myBorder">Experiences</h1><br />
+            <div class="grid grid-rows-2 gap-12">
+                <div class="flex flex-col md:grid md:grid-cols-4 bg-gray-700 rounded-xl gap-x-8 gap-y-5 p-5">
+                    <div class="text-white font-extrabold text-lg"><img src="acn-removebg.png" alt="Accenture"></div>
+                    <div class="col-span-2 order-3 md:order-none">
+                        <h3 class="text-white font-extrabold text-lg pb-3">Software Engineer Associate</h3>
+                        <ul class="list-outside list-disc pl-6">
+                            <li>Based in a Workday client during my tenure at Accenture, certified and specializing in Workday integrations and implementations</li>
+                            <li>Transform and format report data using XML and XSLT.</li>
+                            <li>Configure custom reports, security and integration systems, and migrate them to the workday tenant.</li>
+                            <li>Deploying workday tenants using workday studio and provide documentation.</li>
+                            <li> Providing unit test evidence from different test case scenarios.</li>
+                        </ul>
+                    </div>
+                    <div class="order-2 text-white text-md text-right max-md:text-left">July 2024 - April 2025</div>
+                </div>
+                <div class="flex flex-col md:grid md:grid-cols-4 bg-gray-700 rounded-xl gap-x-8 gap-y-5 p-5">
+                    <div class="text-white font-extrabold text-lg"><img src="apteum-removebg.png" alt="Apteum"></div>
+                    <div class="col-span-2 order-3 md:order-none">
+                        <h3 class="text-white font-extrabold text-lg pb-3">Data Engineer Intern</h3>
+                        <ul class="list-outside list-disc pl-6">
+                            <li>Focused on maintaining the data scraper structured code by debugging and implementing code solutions to prevent inaccurate data.</li>
+                            <li>Improving scraper and merging tickets on the head branch using GIT in Jira to be reviewed, approved, and tested.</li>
+                            <li>Analyzed and documented the issues of each data on scraper, database, and website.</li>
+                        </ul>
+                    </div>
+                    <div class="order-2 text-white text-md text-right max-md:text-left">March 2024 - June 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-900 pl-40 pr-40 p-10 max-md:p-10 place-items-center" id="work">
+            <h1 class="myBorder">Work</h1><br />
+            <div class="flex flex-col md:grid md:grid-cols-2">
+                <div class="place-items-center bg-[#434A56] max-md:rounded-t-xl md:rounded-l-xl p-5"><img src="lc.avif" class="rounded-xl" alt="Landchecker"></div>
+                <div class="order-2 md:order-none bg-[#2d3644] max-md:rounded-b-xl md:rounded-r-xl p-5">
+                    <b class="text-white text-base">Landchecker</b><br>
+                    <p class="text-sm/5 mt-5 mb-2">I was responsible for maintaining the accuracy of property data for Landchecker as a data engineer intern in Apteum. I worked on improving and updating outdated PHP scripts that handled data scraping, which helped keep property/land listings current.</p>
+                    <ul class="work p-2">
+                        <li>PHP</li>
+                        <li>PostgreSQL</li>
+                        <li>Jira</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-800 pl-40 pr-40 p-10 max-md:p-10 place-items-center" id="contact">
+            <h1 class='myBorder text-lg'>Contact</h1><br />
+            <p class='text-md'>If you'd like to connect, feel free to drop a message or reach me on any platform.</p><br />
+            <div class="flex flex-col md:grid md:grid-cols-2 gap-20">
+                <form action="https://formspree.io/f/xnndrljj" target="_blank" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" class='mb-2 p-1 text-gray-700' required /><br />
+                    <input type="email" name="email" placeholder="Your Email" class='mb-2 p-1 text-gray-700' required /><br />
+                    <textarea name="message" class='resize-none w-290 mb-1 p-1 text-gray-700' rows="7" placeholder="Your Message" required></textarea><br />
+                    <button type="submit" class='align-center bg-cyan-600 border-transparent'>Send</button>
+                 </form>
+                 <div class='order-2'>
+                    <label class='text-base/10'><i class="text-xl bi bi-geo-alt-fill margin mr-7"></i>Cebu City, Philippines</label><br />
+                    <label class='text-base/10'><i class="text-xl bi bi-telephone-fill mr-7"></i>09326190142</label><br />
+                    <label class='text-base/10'><i class="text-xl bi bi-envelope-fill mr-7"></i>lahoylahoy.jezel18@gmail.com</label><br /><br />
+                    <div class="pt-12 text-center border-t-2 pt-8 border-b-2 pb-8">
+                        <a href="" class="bg-gray-700 rounded-full p-4"><i class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jezel-lahoylahoy" target="_blank" class="bg-gray-700 rounded-full p-4"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <label class="text-[11px] text-right">Design inspired by Sagar Shah</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
