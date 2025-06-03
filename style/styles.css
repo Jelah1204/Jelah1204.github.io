@@ -15,9 +15,6 @@ body{
     transparent 85%
   );
 }
-ul.header{
-    border-bottom: 1px rgb(46, 46, 46) solid;
-}
 ul.header li, ul.work li{
     display: inline;
 }
